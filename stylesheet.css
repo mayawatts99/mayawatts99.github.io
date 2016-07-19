@@ -2,10 +2,18 @@ body{
     background-color: black
 }
 h1 {
-    font-family: courier;
-    color: white;
+    text-align: center;
+    font-family: Baskerville;
+    color: #990000;
 }
  h4 {
-     font-family: serif
-     color: white;
+     text-align: center;
+     font-family: Lucida;
+     color: #990000;
  }
+ p {
+     text-align: center;
+     font-family: Lucida;
+     color: font-family: Lucida;
+     color: #990000;
+     }
