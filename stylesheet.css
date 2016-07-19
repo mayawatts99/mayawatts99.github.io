@@ -6,14 +6,26 @@ h1 {
     font-family: Baskerville;
     color: #990000;
 }
- h4 {
+ h3 {
      text-align: center;
-     font-family: Lucida;
+     font-family: Baskerville;
+     color: #990000;
+ }
+  h4 {
+     font-family: Baskerville;
      color: #990000;
  }
  p {
-     text-align: center;
-     font-family: Lucida;
-     color: font-family: Lucida;
+     font-size: 16px;
+     font-family: Baskerville;
      color: #990000;
      }
+     
+p {  font-size: 16px;
+     font-family: Baskerville;
+     color: #990000;
+     }
+ul { font-size: 16px;
+     font-family: Baskerville;
+     color: #990000;
+    }
