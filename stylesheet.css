@@ -6,10 +6,10 @@ body{
     background-attachment: fixed;
 }
 
-img {
+#me {
     border-radius: 50%;
-    width: 200;
-    height: 200;
+    width: 350px;
+    height: 400px;
 }
 
 h1{
@@ -30,7 +30,7 @@ h1{
      font-family:'Source Sans Pro', sans-serif; 
      font-size: 20px
  }
- img {
+ #html {
      width: 200;
      height: 200;
  }
