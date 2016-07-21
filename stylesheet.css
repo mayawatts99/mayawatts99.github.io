@@ -1,59 +1,51 @@
-body{
-    background-image: url(https://i.ytimg.com/vi/HPph35tdMP8/maxresdefault.jpg);
-    height: 100%;
-    margin: 0;
-    background-repeat: no-repeat;
-    background-attachment: fixed;
-}
+body {  
+    background-color: black;
 
+}
 #nav {
-    margin:0 ;
+    list-style-type: none;
+    margin: 0;
     padding: 0;
+    width: 200px;
     overflow: hidden;
-    background-color:#333;
+    background-color: black;
+    font-family:'Source Sans Pro', sans-serif; 
+    font-size: 20px
+ }
 
-}
-li { 
-    float: right;
-    border-right: 1px solid #bbb;
-}
-li:last-child {
-    border-right: none;
-}
-li a { 
+li a {
     display: block;
     color: white;
-    text-align: center;
-    padding: 14px 16px;
+    padding: 8px 16px;
     text-decoration: none;
 }
-li a:hover {
-    background-color: #111;
-}
-.active {
-    background-color: #999999;
-}
 
-#me {
+ #me {
     border-radius: 50%;
     width: 350px;
     height: 400px;
 }
-
-h1{
+#title{
     text-align: center;
     font-family: 'Nosifer', cursive;
     color: white;
+    font-size: 6em;
 }
- h2 {
-     text-align: center;
+#subtitle{ 
+    text-align: center;
+    color:white;
+     font-family:'Source Sans Pro', sans-serif; 
+     font-size: 5em
+}
+ #fav {
+     text-align: right;
      font-family: 'Nosifer', cursive;
      color:white;
  
  }
  ul {
      list-style-type: none;
-     text-align: center;
+     text-align: right;
      color:white;
      font-family:'Source Sans Pro', sans-serif; 
      font-size: 20px
@@ -62,3 +54,4 @@ h1{
      width: 200;
      height: 200;
  }
+ 
