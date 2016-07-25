@@ -1,5 +1,5 @@
 body {  
-    background-color: black;
+    background-color: white;
 
 }
 #nav {
@@ -8,14 +8,14 @@ body {
     padding: 0;
     width: 200px;
     overflow: hidden;
-    background-color: black;
+    background-color: white;
     font-family:'Source Sans Pro', sans-serif; 
     font-size: 20px
  }
 
 li a {
     display: block;
-    color: white;
+    color: black;
     padding: 8px 16px;
     text-decoration: none;
 }
@@ -27,31 +27,44 @@ li a {
 }
 #title{
     text-align: center;
-    font-family: 'Nosifer', cursive;
-    color: white;
+    font-family:'Dosis', sans-serif;
+    color:black;
     font-size: 6em;
 }
 #subtitle{ 
     text-align: center;
-    color:white;
+    color:gray;
      font-family:'Source Sans Pro', sans-serif; 
      font-size: 5em
 }
+#qmark {
+float: none;
+}
+ #hey {
+     text-align: center;
+     color: gray;
+     font-family:'Source Sans Pro', sans-serif; 
+     font-size: 1.2em
+ }
  #fav {
      text-align: right;
-     font-family: 'Nosifer', cursive;
-     color:white;
- 
- }
- ul {
+     font-family:'Dosis', sans-serif;
+     color:black;
+     font-size: 1.5em
+}
+ #about {
      list-style-type: none;
      text-align: right;
-     color:white;
+     color:gray;
      font-family:'Source Sans Pro', sans-serif; 
-     font-size: 20px
+     font-size: 1.2em
  }
+#blackpan {
+    width: 300;
+    height: 300;
+    float: right;
+}
  #html {
      width: 200;
      height: 200;
  }
- 
