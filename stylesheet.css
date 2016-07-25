@@ -6,17 +6,19 @@ body {
     list-style-type: none;
     margin: 0;
     padding: 0;
-    width: 200px;
     overflow: hidden;
-    background-color: white;
+    background-color: black;
     font-family:'Source Sans Pro', sans-serif; 
     font-size: 20px
  }
-
+li {
+    float: left;
+}
 li a {
-    display: block;
-    color: black;
-    padding: 8px 16px;
+     display: block;
+    color: white;
+    text-align: center;
+    padding: 14px 16px;
     text-decoration: none;
 }
 
@@ -47,24 +49,35 @@ float: none;
      font-size: 1.2em
  }
  #fav {
-     text-align: right;
+     text-align: center;
      font-family:'Dosis', sans-serif;
      color:black;
      font-size: 1.5em
 }
- #about {
-     list-style-type: none;
-     text-align: right;
-     color:gray;
+ #things {
+     text-align: center;
+     color: gray;
      font-family:'Source Sans Pro', sans-serif; 
      font-size: 1.2em
  }
 #blackpan {
     width: 300;
     height: 300;
-    float: right;
+    float: center;
 }
  #html {
      width: 200;
      height: 200;
+ }
+h2 {
+  text-align: center;
+     font-family:'Dosis', sans-serif;
+     color:black;
+     font-size: 1.5em   
+}
+#lang {
+    text-align: center;
+     color: gray;
+     font-family:'Source Sans Pro', sans-serif; 
+     font-size: 1.2em
  }
