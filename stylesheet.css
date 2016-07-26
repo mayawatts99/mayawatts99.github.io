@@ -59,18 +59,13 @@ float: none;
      color: gray;
      font-family:'Source Sans Pro', sans-serif; 
      font-size: 1.2em
- }
-#blackpan {
-    width: 300;
-    height: 300;
-    float: center;
 }
  #html {
      width: 200;
      height: 200;
  }
-h2 {
-  text-align: center;
+    h2 {
+      text-align: center;
      font-family:'Dosis', sans-serif;
      color:black;
      font-size: 1.5em   
@@ -81,3 +76,9 @@ h2 {
      font-family:'Source Sans Pro', sans-serif; 
      font-size: 1.2em
  }
+#contact {
+    text-align: center;
+     color: gray;
+     font-family:'Source Sans Pro', sans-serif; 
+     font-size: 1.2em
+}
