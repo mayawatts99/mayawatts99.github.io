@@ -22,8 +22,11 @@ li a {
     padding: 14px 16px;
     text-decoration: none;
 }
-
- #me {
+li a:hover {
+    background-color: white;
+    color: black;
+}
+#me {
     border-radius: 50%;
     width: 350px;
     height: 400px;
