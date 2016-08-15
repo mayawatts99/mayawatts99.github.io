@@ -86,9 +86,22 @@ h2 {
      font-family:'Source Sans Pro', sans-serif; 
      font-size: 1.2em
 }
+.form-group {
+    width: 25%;
+}
+#email {
+    width:200px;
+}
 #FAQ {
     text-align: center;
      color:black;
      font-family:'Source Sans Pro', sans-serif; 
      font-size: 1.2em
+}
+.slides {
+    padding: 50px
+}
+.mySlides {
+    width:650px;
+    height: 500px;
 }

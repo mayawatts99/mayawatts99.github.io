@@ -2,9 +2,17 @@
 <html>
     <head>
         <title> Contact Me </title>
-       <link type= "text/css" rel="stylesheet" href="stylesheet.css"/>
-        <link href='https://fonts.googleapis.com/css?family=Dosis:400,600' rel='stylesheet' type='text/css'>
-        <link href='https://fonts.googleapis.com/css?family=Source+Sans+Pro:400,300' rel='stylesheet'>
+       <!-- Latest compiled and minified CSS -->
+<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css" integrity="sha384-BVYiiSIFeK1dGmJRAkycuHAHRg32OmUcww7on3RYdg4Va+PmSTsz/K68vbdEjh4u" crossorigin="anonymous">
+
+<!-- Optional theme -->
+<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap-theme.min.css" integrity="sha384-rHyoN1iRsVXV4nD0JutlnGaslCJuC7uwjduW9SVrLvRYooPp2bWYgmgJQIXwl/Sp" crossorigin="anonymous">
+
+<!-- Latest compiled and minified JavaScript -->
+<script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js" integrity="sha384-Tc5IQib027qvyjSMfHjOMaLkfuWVxZxUPnCJA7l2mCWNIpG9mGCD8wGNIcPD7Txa" crossorigin="anonymous"></script>
+ <link type= "text/css" rel="stylesheet" href="stylesheet.css"/>
+ <link href='https://fonts.googleapis.com/css?family=Dosis:400,600' rel='stylesheet' type='text/css'>
+ <link href='https://fonts.googleapis.com/css?family=Source+Sans+Pro:400,300' rel='stylesheet'>
     </head>
     <body>
      <ul id="nav">
@@ -14,22 +22,28 @@
   <li><a href="ContactMe.html">Contact Me</a></li>
   <li><a href="FAQ.html">FAQ</a></li>
 </ul>
+     <center>
      <p id="title"> Contact Me</p>
-     <p id="contact"> If you are interested in my website development services put your name, email, and a description of what the website is for below:</p> 
+     <p id="contact"> If you are interested in my website development services put your name and email</p> 
      <form>
-       <center>First name <br>
-        <input type="text" name="firstname"> <br> 
-        Last name <br>
-        <input type="text" name="lastname"> <br> 
-        Email <br>
-         <input type="text" name="email"> <br> <br>
-        Description of Website <br>
-        <textarea rows="5" cols="80" id="TITLE">
-        </textarea> <br> <br>
-     <input type="submit" value="Submit">
+     <div class="form-group">
+     <label for="firstname1"> First Name </label>
+     <input type="Firstname" class="form-control" id="exampleInputname1" placeholder="First Name">
      
+  </div>
+  <div class="form-group">
+    <label for="lastname1"> Last Name </label>
+    <input type="Lastname" class="form-control" id="exampleInputPname2" placeholder="Last Name">
+  </div>
+  <center>
+  <div class="form-group">
+    <label for="exampleInputEmail1">Email address</label>
+    <input type="email" class="form-control" id="exampleInputEmail1" placeholder="Email">
+  </div>
      </form>
-      <p id="contact"> I will email you as soon as possible and then we can schedule a meeting</p>
-      </center>
+     </center>
+     <br> <br>
+      <p id="contact"> I will email you as soon as possible to schedule our initial consultation</p>
+    <img id="email" src="email.png">
     </body>
 </html>
